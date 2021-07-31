@@ -9,6 +9,6 @@ The steps I used:
 - To find the boundaries, I used Canny Edge Detection Algorithm
 - Found contours of the prepared image.
 - Created a Region of Interest using the contours area.
-- Applied Blob Detector to find keypoints and find the face value of dice (There will never be a perfect dot. So, I defined minimum inertia 0.5.)
+- Applied Blob Detector to find keypoints and find the face value of dice. (There will never be a perfect dot. So, I defined minimum inertia 0.5.)
 
 I have implemented my code in both interactive python notebook i.e ipynb file and python file. 
