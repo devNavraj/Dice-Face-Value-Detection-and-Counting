@@ -12,7 +12,7 @@ cv2.namedWindow("main", cv2.WINDOW_NORMAL)
 cv2.imshow('main', img)
 cv2.waitKey(0)
 
-# Create clones and greyscale version of the image
+# Create clones and grayscale version of the image
 img_clone = img.copy()
 img_clone1 = img.copy()
 
